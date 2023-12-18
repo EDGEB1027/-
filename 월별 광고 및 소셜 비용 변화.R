@@ -3,10 +3,8 @@ library(ggplot2)
 # Data
 costs_data <- data.frame(
   Month = factor(c("9월", "10월", "11월", "12월", "1월", "2월"), levels = c("9월", "10월", "11월", "12월", "1월", "2월")),
-  Total_Sales = c(528, 550.1, 546.9, 548, 553.3, 555.4),  # Convert to 10,000 units
   Advertising_Costs = c(105.6, 95.04, 73.92, 52.8, 31.68, 31.68),  # Convert to 10,000 units
-  Social_Network_Costs = c(0, 10.56, 31.68, 52.8, 73.92, 73.92),  # Convert to 10,000 units
-  Unit_Price_per_Ounce = c(2.00, 2.00, 2.00, 1.90, 1.90, 1.90)   # Convert to 10,000 units
+  Social_Network_Costs = c(0, 10.56, 31.68, 52.8, 73.92, 73.92)   # Convert to 10,000 units
 )
 
 # Line chart for Advertising Costs and Social Network Costs
